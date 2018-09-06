@@ -8,7 +8,7 @@
     <Compile Include="Configuration.fs" />
   </ItemGroup>
 
-  <ProjectExtensions>
+  <PropertyGroup>
     <Version>1.0.1</Version>
     <FileVersion>$(Version)</FileVersion>
     <Authors>David Inman, Jon Fuller</Authors>
@@ -21,6 +21,5 @@
     <PackageTags>sqlserver sql path sqlcmd</PackageTags>
     <PackageLicenseUrl>https://raw.githubusercontent.com/sep/sqlserverpath/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/sep/sqlserverpath</PackageProjectUrl>
-  </ProjectExtensions>
-
+  </PropertyGroup>
 </Project>
