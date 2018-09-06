@@ -54,7 +54,7 @@ Task("package-push")
     .Description("Pushes NuGet package to NuGet")
     .Does(() =>
     {
-        var version = XmlPeek("SqlServerPath/SqlServerPath.fsproj", "/Project/ProjectExtensions/Version");
+        var version = XmlPeek("SqlServerPath/SqlServerPath.fsproj", "/Project/PropertyGroup/Version");
         var package = $"./SqlServerPath/bin/Release/SqlServerPath.{version}.nupkg";
 
         NuGetPush(package, new NuGetPushSettings {
