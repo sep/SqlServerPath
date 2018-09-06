@@ -4,7 +4,9 @@
 
 ## Usage
 
-TODO
+    var sqlDataPathRoot = SqlServerPath.Configuration.GetSqlDataRoot;
+    var drive = sqlDataPathRoot.drive;  // e.g. C
+    var path = sqlDataPathRoot.path;    // e.g. Path/To/DataFiles/DATA
 
 ## Installation
 
