@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net47;net46</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Configuration.fs" />
+  </ItemGroup>
+
+  <ProjectExtensions>
+    <Version>1.0.1</Version>
+    <FileVersion>$(Version)</FileVersion>
+    <Authors>David Inman, Jon Fuller</Authors>
+    <Description>Determines where your SQL Server database and log files are stored by default.</Description>
+    <Copyright>Copyright © 2018 SEP, Inc</Copyright>
+    <Title>Determines where your SQL Server database and log files are stored by default.</Title>
+    <PackageId>SqlServerPath</PackageId>
+    <PackageVersion>$(Version)</PackageVersion>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags>sqlserver sql path sqlcmd</PackageTags>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/sep/sqlserverpath/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/sep/sqlserverpath</PackageProjectUrl>
+  </ProjectExtensions>
+
+</Project>
